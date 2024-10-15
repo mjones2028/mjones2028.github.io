@@ -1,0 +1,107 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin: 20px;
+	padding: 10px;
+	height: 100%;
+	background-color: #FFF8DC; 
+}
+
+html {
+	/* Standard text-settings below */
+	font-family: "Roboto Slab", serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	background-color: #FFF8DC;
+}
+
+
+
+
+body {
+	background-color: #FFF8DC;
+	font-family: "Roboto Slab", serif;
+}
+
+
+.typography-container {
+	text-align: center;
+	padding: 20px;
+	background-color: #FFF0E6;
+	border: 4px #EAA794;
+}
+
+.main-title {
+	font-size: 2.5em;
+	color: #FF6347;
+	text-shadow: 4px 4px 0px #F08080, 6px 6px 0px #FF4500;
+}
+
+.highlight {
+	font-family: "Roboto Slab", serif;
+	font-size: 2em;
+	color: #4682B4;
+	margin: 10px;
+}
+
+.punchline {
+	font-family: "Roboto Slab", serif;
+	font-size: 1.8em;
+	font-weight: 600;
+	color: #FFF8DC;
+	margin-top: 10px;
+}
+
+.hotdog {
+	font-family: "Roboto Slab", serif;
+	color: #FF4500;
+	font-weight: 900;
+	background-color: #FFD700;
+	padding: 10px;
+}
+
+.another {
+	font-family: "Roboto Slab", serif;
+	color: #FF4500;
+	font-weight: 900;
+	background-color: #FFD700;
+	padding: 10px;
+	display: inline-block;
+	transform: rotate(75deg);
+}
+
+.anotherother {
+	font-family: "Roboto Slab", serif;
+	color: #FF4500;
+	font-size 20px;
+	font-weight: 900;
+	background-color: #FFD700;
+	padding: 15px;
+	display: inline-block;
+	transform: rotate(75deg);
+}
+
+.please {
+	font-family: "Roboto Slab", serif;
+	color: #FF4500;
+	font-size: 20px;
+	font-weight: 900;
+	background-color: #FFD700;
+	padding: 20px;
+	display: inline-block;
+	transform: rotate(75deg);
+}
+
+
+.roboto-slab-<uniquifier> {
+	font-family: "Roboto Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+footer {
+	background-color: #FF4500;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 4px
+}
