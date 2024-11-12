@@ -1,0 +1,118 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+	box-sizing: border-box;
+}
+
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+p {
+	text-indent: 2em;
+}
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	font-family: 'Roboto Slab', serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #d0e7ff;
+	color: #333333;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	
+}
+
+body {
+	background-image: url('dellioh.jpg');
+}
+
+.roboto-slab-uniquifier {
+	font-family: "Roboto Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1000px;
+	gap: 20px;
+	padding: 20px;
+	background-color: rgba(179,205,224,0.8);
+	border-radius: 8px;
+}
+
+.opinion {
+	background-color: #b3cde0;
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #4d8fac;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #0077b6;
+	text-decoration: none;
+}
+a:hover {
+		text-decoration: underline;
+	}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+
+	#container {
+		width: 90%;
+	}
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+	.container {
+		flex-direction: row;
+	}
+
+	.opinion{
+		flex: 0.8;
+		padding: 20px;
+	}
+	
+	
+} /* closes 1024px+ */
+
+
+
